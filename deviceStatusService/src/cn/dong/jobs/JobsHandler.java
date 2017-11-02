@@ -1,4 +1,4 @@
-package cn.encdata.jobs;
+package cn.dong.jobs;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,11 +14,11 @@ import org.springframework.context.annotation.PropertySources;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Controller;
 
-import cn.encdata.device.dao.DeviceDao;
-import cn.encdata.device.dao.DeviceDaoImpl;
-import cn.encdata.domain.Device;
-import cn.encdata.jobs.countData.CountData;
-import cn.encdata.jobs.pingIP.PingIP;
+import cn.dong.device.dao.DeviceDao;
+import cn.dong.device.dao.DeviceDaoImpl;
+import cn.dong.domain.Device;
+import cn.dong.jobs.countData.CountData;
+import cn.dong.jobs.pingIP.PingIP;
 
 @Controller
 @PropertySources({

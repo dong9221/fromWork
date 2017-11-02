@@ -1,4 +1,4 @@
-package cn.encdata.domain;
+package cn.dong.domain;
 
 public class Device {
 	private String deviceId;

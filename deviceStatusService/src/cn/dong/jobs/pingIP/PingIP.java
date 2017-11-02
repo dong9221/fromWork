@@ -1,4 +1,4 @@
-package cn.encdata.jobs.pingIP;
+package cn.dong.jobs.pingIP;
 
 import java.io.IOException;
 import java.net.InetAddress;
@@ -17,7 +17,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import cn.encdata.domain.Device;
+import cn.dong.domain.Device;
 @Service
 public class PingIP implements Runnable{
 	private static final Log log = LogFactory.getLog(PingIP.class);

@@ -1,4 +1,4 @@
-package cn.encdata.device.dao;
+package cn.dong.device.dao;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
-import cn.encdata.domain.Device;
+import cn.dong.domain.Device;
 
 @Repository("deviceDao")
 public class DeviceDaoImpl implements DeviceDao{

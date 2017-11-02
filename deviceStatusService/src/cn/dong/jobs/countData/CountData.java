@@ -1,4 +1,4 @@
-package cn.encdata.jobs.countData;
+package cn.dong.jobs.countData;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

@@ -1,8 +1,8 @@
-package cn.encdata.device.dao;
+package cn.dong.device.dao;
 
 import java.util.List;
 
-import cn.encdata.domain.Device;
+import cn.dong.domain.Device;
 
 public interface DeviceDao {
 	List<Device> getAllDevice();
